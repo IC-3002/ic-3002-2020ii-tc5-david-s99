@@ -13,7 +13,8 @@ def swap(A, i, j):
     A[j] = tmp
 
 def burbuja_optimizado(A):
-    i=ordenado = verifica_ordenado(A)
+    i=1  
+    ordenado = verifica_ordenado(A)
     while i < len(A) and verifica_ordenado(A)==False:
         i = i+1
         if verifica_ordenado(A)==True:
